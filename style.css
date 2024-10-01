@@ -115,7 +115,7 @@ html {
   .slide--1__darkbg {
     left: 0%;
     background: url("img/abuja.jpg") center center no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-position: 0px center, 0px center;
     transform: translate3d(0, 0, 0);
     will-change: transform;
@@ -137,7 +137,7 @@ html {
   .slide--2__darkbg {
     left: -50%;
     background: url("img/ibadan.jpg") center center no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-position: 0px center, 0px center;
     transform: translate3d(0, 0, 0);
     will-change: transform;
@@ -159,7 +159,7 @@ html {
   .slide--3__darkbg {
     left: -100%;
     background: url("img/kano.jpg") center center no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-position: 0px center, 0px center;
     transform: translate3d(0, 0, 0);
     will-change: transform;
@@ -181,7 +181,7 @@ html {
   .slide--4__darkbg {
     left: -150%;
     background: url("img/port.jpg") center center no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-position: 0px center, 0px center;
     transform: translate3d(0, 0, 0);
     will-change: transform;
@@ -203,7 +203,7 @@ html {
   .slide--5__darkbg {
     left: -200%;
     background: url("img/lagos.jpg") center center no-repeat;
-    background-size: cover;
+    background-size: 500px;
     background-position: 0px center, 0px center;
     transform: translate3d(0, 0, 0);
     will-change: transform;
@@ -293,3 +293,11 @@ html {
     left: 0;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #eed7ff 100%);
   }
+
+  /* MEDIA RESPONSIVENESS */
+@media (max-width: 412px) {
+  .slide__text {
+    font-size: 6vw;
+    z-index: 99999;
+  }
+}
